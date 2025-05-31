@@ -3,6 +3,11 @@ import { jaSidebar } from '../sidebar/index.mjs'
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+  lang: 'ja-JP',
+  title: '孫武子', // 站点名称
+  titleTemplate: 'こんにちは！！！', // 网站标题
+  description: 'あなたの未来をコントロールできるのはあなただけです。', // 站点描述
+
   themeConfig: {
     lastUpdatedText: '最終更新日',
     returnToTopLabel: 'トップに戻る',

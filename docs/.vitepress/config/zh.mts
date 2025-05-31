@@ -3,6 +3,11 @@ import { zhSidebar } from '../sidebar/index.mjs'
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+  lang: 'zh-CN',
+  title: '孙武子', // 站点名称
+  titleTemplate: '你好！！！', // 网站标题
+  description: '只有你自己可以掌控你的未来。', // 站点描述
+
   themeConfig: { // 主题设置
     lastUpdatedText: '上次更新', // 上次更新显示文本
     returnToTopLabel: '返回顶部', // 更改手机端菜单文字显示

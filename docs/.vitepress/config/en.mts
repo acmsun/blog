@@ -3,6 +3,11 @@ import { enSidebar } from '../sidebar/index.mjs'
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+  lang: 'en-US',
+  title: 'SUN WU ZI', // 站点名称
+  titleTemplate: 'Hello!!!', // 网站标题
+  description: 'Only you can control your future.', // 站点描述
+
   themeConfig: { // 主题设置
     nav: enNav,
     sidebar: enSidebar, // 侧边栏

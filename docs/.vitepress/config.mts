@@ -14,18 +14,15 @@ export default defineConfig({
   locales: { // 多语言
     root: {
       label: '简体中文',
-      lang: 'zh-CN',
       ...zhConfig
     },
     en: {
       label: 'English',
-      lang: 'en',
       link: '/en/',
       ...enConfig
     },
     ja: {
       label: '日本語',
-      lang: 'ja',
       link: '/ja/',
       ...jaConfig
     }
