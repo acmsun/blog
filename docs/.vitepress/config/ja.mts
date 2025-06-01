@@ -9,38 +9,7 @@ export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
   description: 'あなたの未来をコントロールできるのはあなただけです。', // 站点描述
 
   themeConfig: {
-    lastUpdatedText: '最終更新日',
     returnToTopLabel: '上に戻る',
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '検索',
-                buttonAriaLabel: '検索'
-              },
-              modal: {
-                displayDetails: '詳細リストを表示',
-                resetButtonTitle: 'リワーク検索',
-                backButtonTitle: '検索を閉じる',
-                noResultsText: '関連する結果は見つかりませんでした',
-                footer: {
-                  selectText: '選ぶ',
-                  selectKeyAriaLabel: 'enter',
-                  navigateText: 'スイッチ',
-                  navigateUpKeyAriaLabel: '上矢印キー',
-                  navigateDownKeyAriaLabel: '下矢印キー',
-                  closeText: '閉鎖',
-                  closeKeyAriaLabel: 'esc'
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     nav: jaNav,
     sidebar: jaSidebar,
     docFooter: {

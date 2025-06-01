@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { zhSearchI18n } from '../search-i18n/index.mjs'
+import { jaSearchI18n, zhSearchI18n } from '../search-i18n/index.mjs'
 
 export const sharedConfig = defineConfig({
   base: '/blog/', // 网站部署的路径到blog这个仓库
@@ -15,7 +15,7 @@ export const sharedConfig = defineConfig({
       content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no'
     }],
     // 关键词和描述
-    ['meta', { name: 'keywords', content: '孙武子' }],
+    ['meta', { name: 'keywords', content: '孙武子, WuZi Sun, 孫武子' }],
     // Algolia 站点验证
     ['meta', { name: 'algolia-site-verification', content: '931748345034A8DB' }]
   ],
@@ -40,7 +40,8 @@ export const sharedConfig = defineConfig({
         apiKey: '7836c62a18087c30c4e3732bc5fe628c',
         indexName: 'docs',
         locales: {
-          root: zhSearchI18n
+          root: zhSearchI18n,
+          ja: jaSearchI18n,
         }
       }
     }
