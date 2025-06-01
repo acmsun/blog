@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { zhSearchI18n } from '../search-i18n/index.mjs'
 
 export const sharedConfig = defineConfig({
   base: '/blog/', // 网站部署的路径到blog这个仓库
@@ -39,7 +40,7 @@ export const sharedConfig = defineConfig({
         apiKey: '7836c62a18087c30c4e3732bc5fe628c',
         indexName: 'docs',
         locales: {
-          root: {}
+          root: zhSearchI18n
         }
       }
     }
