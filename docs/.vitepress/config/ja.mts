@@ -10,7 +10,7 @@ export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
   themeConfig: {
     lastUpdatedText: '最終更新日',
-    returnToTopLabel: 'トップに戻る',
+    returnToTopLabel: '上に戻る',
     search: {
       provider: 'local',
       options: {
@@ -19,7 +19,7 @@ export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             translations: {
               button: {
                 buttonText: '検索',
-                buttonAriaLabel: '検索',
+                buttonAriaLabel: '検索'
               },
               modal: {
                 displayDetails: '詳細リストを表示',
@@ -33,13 +33,13 @@ export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                   navigateUpKeyAriaLabel: '上矢印キー',
                   navigateDownKeyAriaLabel: '下矢印キー',
                   closeText: '閉鎖',
-                  closeKeyAriaLabel: 'esc',
-                },
-              },
-            },
-          },
-        },
-      },
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
     },
     nav: jaNav,
     sidebar: jaSidebar,
@@ -49,12 +49,11 @@ export const jaConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     darkModeSwitchLabel: 'ダークモード',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: `Copyright © 2025-${new Date().getFullYear()} 孫武子`
+      copyright: `Copyright © 2025-${ new Date().getFullYear() } 孫武子`
     },
     outline: {
       level: [1, 6],
       label: '目次'
-    },
-    outlineTitle: '現在のページのアウトライン',
+    }
   }
 }
