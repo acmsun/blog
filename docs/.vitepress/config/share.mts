@@ -8,7 +8,7 @@ export const sharedConfig = defineConfig({
   titleTemplate: '你好！！！', // 网站标题
   description: '只有你自己可以掌控你的未来。', // 站点描述
   head: [
-    ['link', { rel: 'shortcut icon', href: `./ico/16x16/favicon.ico` }],
+    ['link', { rel: 'shortcut icon', href: `/ico/16x16/favicon.ico` }],
     // 网页视口
     ['meta', {
       name: 'viewport',
@@ -27,7 +27,7 @@ export const sharedConfig = defineConfig({
 
   themeConfig: {
     i18nRouting: false,
-    logo: './png/64x64/favicon.png', // 导航栏的 Logo
+    logo: '/png/64x64/favicon.png', // 导航栏的 Logo
 
     socialLinks: [ // 社交帐户链接
       { icon: 'github', link: 'https://github.com/acmsun/blog' }
@@ -41,7 +41,7 @@ export const sharedConfig = defineConfig({
         indexName: 'docs',
         locales: {
           root: zhSearchI18n,
-          ja: jaSearchI18n,
+          ja: jaSearchI18n
         }
       }
     }

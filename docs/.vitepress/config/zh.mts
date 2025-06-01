@@ -29,14 +29,14 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       text: '上次更新时间'
     },
 
-    returnToTopLabel: '返回顶部', // 更改手机端菜单文字显示
-
-
     docFooter: { // 自定义上下页名
-      prev: '上一篇', next: '下一篇'
+      prev: '上一页', next: '下一页'
     },
-    darkModeSwitchLabel: '深浅模式' // 手机端深浅模式文字修改
-
-
+    darkModeSwitchLabel: '外观', // 深色模式开关标签
+    lightModeSwitchTitle: '浅色模式',
+    darkModeSwitchTitle: '深色模式',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '返回顶部',
+    langMenuLabel: '更改语言'
   }
 }
